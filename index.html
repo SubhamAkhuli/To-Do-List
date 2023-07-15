@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title> 
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="app">
+        <section class="greeting">
+            <h2 class="title">
+               Welcome to My To-Do List
+            </h2>
+        </section>
+
+        <section class="create-todo">
+            <h3>Create Your To-Do List</h3>
+
+            <form id="new-todo-form" style="padding-right: 20px;">
+                <input type="text" name="content" id="content" placeholder="Write your task here">
+
+                <input type="submit" value="Add Task">
+            </form>
+        </section>
+
+        <section class="todo-list">
+            <h3>To Do List</h3>
+            <div class="list" id="todo-list">
+            </div>
+        </section>
+
+    </main>
+    <footer style="padding-top: 325px;">
+        <marquee behavior="scroll" direction="left"><b> ~Developed by Subham Akhuli~</b></marquee>
+    </footer>
+    
+
+    <script src="script.js"></script>
+</body>
+
+</html>

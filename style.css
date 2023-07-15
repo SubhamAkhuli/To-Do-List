@@ -4,8 +4,8 @@
     --primary: #f8f8fb;
     --business: #ee4c3a; 
     --personal: var(--primary);
-    --grey: #000000;
-
+    --dark: #000000;
+    
     --danger: crimson;
 
     --shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
@@ -45,7 +45,7 @@ section {
 
 
 h3 {
-    color: var(--dark);
+    color: white;
     font-size: 1rem;
     font-weight: 400;
     margin-bottom: 0.5rem;
@@ -64,7 +64,7 @@ h3 {
 
 .greeting .title,
 .greeting .title input {
-    color: var(--dark);
+    color:white;
     font-size: 1.5rem;
     font-weight: 700;
 }
@@ -225,5 +225,5 @@ input:checked~.bubble::after {
 
 .todo-items.done .todo-content input {
     text-decoration: line-through;
-    color: var(--grey);
+    color: var(--dark);
 }
